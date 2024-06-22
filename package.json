@@ -1,5 +1,17 @@
 {
   "name": "@leanstacks/root-config",
+  "description": "Single SPA playground project. The root module.",
+  "keywords": [
+    "typescript",
+    "spa"
+  ],
+  "author": "Matthew Warman",
+  "license": "MIT",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mwarman/single-spa-playground-root"
+  },
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
